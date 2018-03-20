@@ -1,4 +1,4 @@
-import desing.pattern.creational.factory.SendFactory;
+import desing.pattern.creational.client.SendFactory;
 import desing.pattern.creational.buss.Sender;
 
 /**

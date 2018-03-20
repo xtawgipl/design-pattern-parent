@@ -1,4 +1,4 @@
-package desing.pattern.creational.factory;
+package desing.pattern.creational.client;
 
 import desing.pattern.creational.buss.Sender;
 

@@ -1,6 +1,6 @@
 import desing.pattern.creational.bean.ProductBean;
-import desing.pattern.creational.factory.VillaBuilder;
-import desing.pattern.creational.factory.Director;
+import desing.pattern.creational.client.VillaBuilder;
+import desing.pattern.creational.client.Director;
 import org.junit.Assert;
 import org.junit.Test;
 

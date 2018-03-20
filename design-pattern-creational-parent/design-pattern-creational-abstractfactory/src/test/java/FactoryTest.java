@@ -1,6 +1,6 @@
 import desing.pattern.creational.buss.Sender;
-import desing.pattern.creational.factory.Provider;
-import desing.pattern.creational.factory.SendMailFactory;
+import desing.pattern.creational.client.Provider;
+import desing.pattern.creational.client.SendMailFactory;
 
 /**
  * 测试

@@ -17,6 +17,7 @@
 		<module>design-pattern-creational-abstractfactory</module>
 		<module>design-pattern-creational-singleton</module>
 		<module>design-pattern-creational-builder</module>
+		<module>design-pattern-creational-prototype</module>
 	</modules>
 
 </project>

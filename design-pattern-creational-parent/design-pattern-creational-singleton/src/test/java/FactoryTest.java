@@ -1,5 +1,5 @@
-import desing.pattern.creational.factory.Singleton;
-import desing.pattern.creational.factory.Singleton2;
+import desing.pattern.creational.client.Singleton;
+import desing.pattern.creational.client.Singleton2;
 import org.junit.Assert;
 import org.junit.Test;
 
