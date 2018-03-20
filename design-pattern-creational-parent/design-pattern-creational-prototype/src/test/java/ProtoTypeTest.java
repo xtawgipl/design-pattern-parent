@@ -1,6 +1,6 @@
-import desing.pattern.creational.bean.Attachment;
-import desing.pattern.creational.bean.WeekLogForDeepClone;
-import desing.pattern.creational.bean.WeekLogForShallowClone;
+import desing.pattern.structural.cls.bean.Attachment;
+import desing.pattern.structural.cls.bean.WeekLogForDeepClone;
+import desing.pattern.structural.cls.bean.WeekLogForShallowClone;
 import org.junit.Assert;
 import org.junit.Test;
 

@@ -18,6 +18,7 @@
 	
 	<modules>
 		<module>design-pattern-creational-parent</module>
+		<module>design-pattern-structural-parent</module>
 	</modules>
 
 	<dependencyManagement>

@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>creational.pattern.design</groupId>
-	<artifactId>design-pattern-creational-parent</artifactId>
+	<groupId>structural.pattern.design</groupId>
+	<artifactId>design-pattern-structural-parent</artifactId>
 	<name>design-pattern-creational-parent</name>
-	<description>创建型模式</description>
+	<description>结构型模式</description>
 
 	<parent>
 		<groupId>pattern.design</groupId>
@@ -13,11 +13,7 @@
 	</parent>
 	
 	<modules>
-		<module>design-pattern-creational-factorymethod</module>
-		<module>design-pattern-creational-abstractfactory</module>
-		<module>design-pattern-creational-singleton</module>
-		<module>design-pattern-creational-builder</module>
-		<module>design-pattern-creational-prototype</module>
+		<module>design-pattern-structural-adapter</module>
 	</modules>
 
 </project>

@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>design-pattern-creational-prototype</artifactId>
 	<name>design-pattern-creational-prototype</name>
-	<description>创建弄模式-原型模式</description>
+	<description>创建型模式-原型模式</description>
 
 	<parent>
 		<groupId>creational.pattern.design</groupId>

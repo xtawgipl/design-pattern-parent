@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>design-pattern-creational-factorymethod</artifactId>
 	<name>design-pattern-creational-factorymethod</name>
-	<description>创建弄模式-工厂方法模式</description>
+	<description>创建型模式-工厂方法模式</description>
 
 	<parent>
 		<groupId>creational.pattern.design</groupId>

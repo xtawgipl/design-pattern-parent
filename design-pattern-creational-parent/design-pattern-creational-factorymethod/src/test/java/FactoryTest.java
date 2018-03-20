@@ -1,5 +1,5 @@
-import desing.pattern.creational.client.SendFactory;
-import desing.pattern.creational.buss.Sender;
+import desing.pattern.structural.cls.client.SendFactory;
+import desing.pattern.structural.cls.buss.Sender;
 
 /**
  * 测试

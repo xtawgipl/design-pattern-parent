@@ -1,6 +1,6 @@
-import desing.pattern.creational.buss.Sender;
-import desing.pattern.creational.client.Provider;
-import desing.pattern.creational.client.SendMailFactory;
+import desing.pattern.structural.cls.buss.Sender;
+import desing.pattern.structural.cls.client.Provider;
+import desing.pattern.structural.cls.client.SendMailFactory;
 
 /**
  * 测试
