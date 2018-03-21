@@ -71,6 +71,5 @@ public class ProxyTest {
         CGLibProxy proxy = new CGLibProxy();
         Train train = (Train) proxy.getProxy(Train.class);
         train.move();
-
     }
 }
