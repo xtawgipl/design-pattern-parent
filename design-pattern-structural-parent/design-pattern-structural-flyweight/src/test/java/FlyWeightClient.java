@@ -19,6 +19,7 @@ import java.util.List;
  *  2、Integer 在默认情况下(-128, 127]间的值是享元的（IntegerCache中static代码块一次性将(-128, 127]内的值放入Integer[]看）
  *     当new Integer()时，先从该数组中查找 ，如果存在则返回，如果不存在则构造后返回
  *     ————这就是Integer (-128, 127]内的值 == 成立(因为使用的是同一个值，所以地址相同)
+ *  3、线程池、数据库连接池
  * @author zhangjj
  * @create 2018-03-23 14:31
  **/
