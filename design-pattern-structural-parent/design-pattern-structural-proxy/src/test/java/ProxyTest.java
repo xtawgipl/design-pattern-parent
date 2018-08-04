@@ -3,6 +3,11 @@ import desing.pattern.structural.cglib.Train;
 import desing.pattern.structural.jdk.Car;
 import desing.pattern.structural.jdk.Moveable;
 import desing.pattern.structural.jdk.TimeHandler;
+import desing.pattern.structural.mybatis.Connection;
+import desing.pattern.structural.mybatis.TestConnection;
+import desing.pattern.structural.mybatis.logging.ConnectionLogger;
+import desing.pattern.structural.mybatis.mapper.Configuration;
+import desing.pattern.structural.mybatis.mapper.ExcutorHandler;
 import desing.pattern.structural.statics.Admin;
 import desing.pattern.structural.statics.Manager;
 import desing.pattern.structural.statics.AdminPoly;
@@ -71,5 +76,41 @@ public class ProxyTest {
         CGLibProxy proxy = new CGLibProxy();
         Train train = (Train) proxy.getProxy(Train.class);
         train.move();
+    }
+
+    /**
+     * mybatis 中的代理只有接口，没有实现类
+     * @param
+     * @author zhangjj
+     * @Date 2018/8/3 14:45
+     * @return
+     * @exception
+     *
+     */
+    @Test
+    public void mybatisTest(){
+        Configuration configuration = new Configuration();
+        UserMapper userMapper = configuration.getMapper(UserMapper.class);
+        System.out.println("----> " + userMapper.insert());
+        System.out.println("----> " + userMapper.delete());
+        System.out.println("----> " + userMapper.update());
+        System.out.println("----> " + userMapper.select());
+    }
+
+    /**
+     * mybatis的日志也是通过动态代理实现
+     * @param
+     * @author zhangjj
+     * @Date 2018/8/3 16:57
+     * @return
+     * @exception
+     *
+     */
+    @Test
+    public void mybatisLogger(){
+        ExcutorHandler excutorHandler = new ExcutorHandler();
+        Connection connection = excutorHandler.getConnection();
+        connection.execute("select * from t_user");
+
     }
 }
