@@ -15,6 +15,11 @@
 	<modules>
 		<module>design-pattern-structural-adapter</module>
 		<module>design-pattern-structural-decorator</module>
+		<module>design-pattern-structural-proxy</module>
+		<module>design-pattern-structural-facede</module>
+		<module>design-pattern-structural-bridge</module>
+		<module>design-pattern-structural-composite</module>
+		<module>design-pattern-structural-flyweight</module>
 	</modules>
 
 </project>
